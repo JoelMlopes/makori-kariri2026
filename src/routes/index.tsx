@@ -130,7 +130,14 @@ function Home() {
           height={1200}
           className="h-[78vh] min-h-[480px] w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink/85 via-ink/55 to-transparent" />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to right, color-mix(in oklab, var(--ink) 88%, transparent), color-mix(in oklab, var(--ink) 62%, transparent) 55%, color-mix(in oklab, var(--ink) 25%, transparent))",
+          }}
+        />
+
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto w-full max-w-6xl px-5">
             <div className="max-w-xl">
