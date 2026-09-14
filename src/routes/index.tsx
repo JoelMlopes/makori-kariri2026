@@ -358,6 +358,13 @@ function Home() {
               @makorikariri
             </a>
           </div>
+          <p className="mx-auto mt-4 max-w-md text-xs text-muted-foreground">
+            Se o botão não abrir, salve o número manualmente:{" "}
+            <a href="tel:+5588988797442" className="text-clay underline underline-offset-4">
+              +55 88 98879-7442
+            </a>
+            . No celular, o link abre direto no WhatsApp; no computador, abre o WhatsApp Web.
+          </p>
           <form
             className="mx-auto mt-10 grid max-w-xl gap-4 text-left"
             onSubmit={(e) => e.preventDefault()}
@@ -407,7 +414,7 @@ function Home() {
               Instagram @makorikariri
             </a>
             <a
-              href="https://wa.me/5588988797442"
+              href="https://wa.me/5588988797442?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20encomendar%20uma%20pe%C3%A7a."
               target="_blank"
               rel="noopener noreferrer"
               className="text-background transition-opacity hover:opacity-80"
