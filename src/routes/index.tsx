@@ -299,6 +299,14 @@ function Home() {
           <div className="mb-10 text-center">
             <p className="mb-3 text-xs tracking-[0.3em] text-clay uppercase">Instagram</p>
             <h2 className="font-display text-3xl sm:text-4xl">Bastidores da marca</h2>
+            <a
+              href="https://www.instagram.com/makorikariri/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-block text-sm tracking-wide text-clay underline underline-offset-4"
+            >
+              @makorikariri
+            </a>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
             {[ig1, ig2, ig3, beaded].map((img, i) => (
@@ -332,6 +340,24 @@ function Home() {
             Encomendas personalizadas, pedidos em quantidade e parcerias. Envie uma
             mensagem e conte o que você imagina.
           </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <a
+              href="https://wa.me/5588988797442?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20encomendar%20uma%20pe%C3%A7a."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-accent px-7 py-3 text-sm font-medium tracking-wide text-accent-foreground transition-opacity hover:opacity-90"
+            >
+              WhatsApp (88) 98879-7442
+            </a>
+            <a
+              href="https://www.instagram.com/makorikariri/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-border px-7 py-3 text-sm tracking-wide transition-colors hover:bg-card"
+            >
+              @makorikariri
+            </a>
+          </div>
           <form
             className="mx-auto mt-10 grid max-w-xl gap-4 text-left"
             onSubmit={(e) => e.preventDefault()}
@@ -371,6 +397,24 @@ function Home() {
             Makori Kariri
           </span>
           <p>Acessórios artesanais · Feitos à mão no Brasil</p>
+          <div className="flex flex-wrap items-center justify-center gap-5">
+            <a
+              href="https://www.instagram.com/makorikariri/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-background transition-opacity hover:opacity-80"
+            >
+              Instagram @makorikariri
+            </a>
+            <a
+              href="https://wa.me/5588988797442"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-background transition-opacity hover:opacity-80"
+            >
+              WhatsApp (88) 98879-7442
+            </a>
+          </div>
           <p className="text-xs text-background/50">
             © {new Date().getFullYear()} Makori Kariri. Todos os direitos reservados.
           </p>
