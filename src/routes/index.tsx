@@ -414,7 +414,7 @@ function Home() {
               Instagram @makorikariri
             </a>
             <a
-              href="https://wa.me/5588988797442"
+              href="https://wa.me/5588988797442?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20encomendar%20uma%20pe%C3%A7a."
               target="_blank"
               rel="noopener noreferrer"
               className="text-background transition-opacity hover:opacity-80"
