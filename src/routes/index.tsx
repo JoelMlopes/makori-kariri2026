@@ -299,6 +299,14 @@ function Home() {
           <div className="mb-10 text-center">
             <p className="mb-3 text-xs tracking-[0.3em] text-clay uppercase">Instagram</p>
             <h2 className="font-display text-3xl sm:text-4xl">Bastidores da marca</h2>
+            <a
+              href="https://www.instagram.com/makorikariri/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-block text-sm tracking-wide text-clay underline underline-offset-4"
+            >
+              @makorikariri
+            </a>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
             {[ig1, ig2, ig3, beaded].map((img, i) => (
