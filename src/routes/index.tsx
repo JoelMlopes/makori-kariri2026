@@ -358,6 +358,13 @@ function Home() {
               @makorikariri
             </a>
           </div>
+          <p className="mx-auto mt-4 max-w-md text-xs text-muted-foreground">
+            Se o botão não abrir, salve o número manualmente:{" "}
+            <a href="tel:+5588988797442" className="text-clay underline underline-offset-4">
+              +55 88 98879-7442
+            </a>
+            . No celular, o link abre direto no WhatsApp; no computador, abre o WhatsApp Web.
+          </p>
           <form
             className="mx-auto mt-10 grid max-w-xl gap-4 text-left"
             onSubmit={(e) => e.preventDefault()}
