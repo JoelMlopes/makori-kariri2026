@@ -397,6 +397,24 @@ function Home() {
             Makori Kariri
           </span>
           <p>Acessórios artesanais · Feitos à mão no Brasil</p>
+          <div className="flex flex-wrap items-center justify-center gap-5">
+            <a
+              href="https://www.instagram.com/makorikariri/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-background transition-opacity hover:opacity-80"
+            >
+              Instagram @makorikariri
+            </a>
+            <a
+              href="https://wa.me/5588988797442"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-background transition-opacity hover:opacity-80"
+            >
+              WhatsApp (88) 98879-7442
+            </a>
+          </div>
           <p className="text-xs text-background/50">
             © {new Date().getFullYear()} Makori Kariri. Todos os direitos reservados.
           </p>
